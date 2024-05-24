@@ -128,4 +128,30 @@
         text-align: inherit;
         
     }
+    .about-sub-cont{
+        display: flex;
+        flex-direction: column;
+        
+        padding-top: 50px;
+    }
+    .about-image{
+        width:350px;
+        border: none;
+        border-radius: 30px;
+        order: 1;
+    }
+    .about-sub-text{
+        padding-top: 30px;
+        order: 2;
+        font-weight: lighter;
+        color: #271e0a;
+
+    }
+    .company{
+        font-size: 25px;
+        font-weight: 600;
+        color: #271e0a;
+        margin-right: 5px;
+        margin-bottom: 25px;
+    }
 }
