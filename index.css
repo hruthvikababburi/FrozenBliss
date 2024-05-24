@@ -44,19 +44,46 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fce2ad;
     padding: 60px;
+    color: #271e0a;
 }
 .about-text{
-    width:80%;
+    width:90%;
     margin: auto;
-    text-align: center;
+    
 }
 .about-text h3{
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
 }
 .about-text p{
     font-size: 20px;
     margin-top: 20px;
     font-weight: lighter;
+    text-align: center;
+}
+.about-sub-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    text-align: left;
+}
+.about-image{
+    width:350px;
+    border: none;
+    border-radius: 30px;
+    order: 2;
+}
+.about-sub-text{
+    padding-right: 30px;
+    order: 1;
+    font-weight: lighter;
+    color: #271e0a;
+}
+.company{
+    font-size: 30px;
+    font-weight: 600;
+    color: #271e0a;
 }
 @media (max-width: 768px) {
     .banner-cont{
