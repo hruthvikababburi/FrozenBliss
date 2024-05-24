@@ -18,16 +18,23 @@
 .banner-text{
     width:35%;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fce2ad;
-
-   
+    
+}
+.icon{
+    font-size: 40px;
 }
 .heading{
     font-size: 50px;
+    color: #fce2ad;
 }
 .tag-line{
     font-size: 20px;
+    margin: 5px;
+    margin-left: 20px;
+    color: #fce2ad;
 }
 .text{
     font-size: 30px;
+    color: #fce2ad;
+    margin:10px;
 }
