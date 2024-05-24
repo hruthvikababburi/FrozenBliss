@@ -132,6 +132,40 @@
     margin-bottom: 20px;
     
 }
+.why-choose-us{
+    background-color: #fce2ad;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #271e0a;
+}
+.why-choose-us-cont{
+    padding-top: 60px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.why-choose-us-img{
+    width: 350px;
+    border-radius: 30px;
+    object-fit: cover;
+    
+}
+.why-choose-us-text{
+    margin-left: 40px;
+}
+.why-choose-us-text h3{
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.why-choose-us-text p{
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 15px;
+}
+
+
 
 
 
@@ -202,5 +236,14 @@
     }
     .ice-cream-cont{
         width: 60%;
+    }
+    .why-choose-us-cont{
+        flex-direction: column;
+
+    }
+    .why-choose-us-text{
+        margin-left: 0px;
+        padding-top: 30px;
+        text-align: center;
     }
 }
