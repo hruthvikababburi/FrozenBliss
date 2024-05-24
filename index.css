@@ -61,12 +61,14 @@
     font-weight: lighter;
     text-align: center;
 }
-.about-sub-cont{
+.about-sub-cont1{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 50px;
     text-align: left;
+    width: 100%;
+    
 }
 .about-image{
     width:350px;
@@ -74,17 +76,64 @@
     border-radius: 30px;
     order: 2;
 }
-.about-sub-text{
+.about-sub-text{ 
     padding-right: 30px;
     order: 1;
     font-weight: lighter;
     color: #271e0a;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.about-sub-text p{
+    margin-bottom: 2px;
 }
 .company{
     font-size: 30px;
     font-weight: 600;
     color: #271e0a;
 }
+.explore-cont{
+    padding-top: 80px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fce2ad;
+    background-image: linear-gradient(#362f1f,#271e0a);
+}
+.explore-text{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.explore-text h3{
+    font-size: 35px;
+}
+.explore-text p{
+    font-size: 18px;
+    padding-top: 18px;
+}
+.explore-varieties{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ice-cream-cont{
+   
+   border: none;
+}
+.ice-cream-variety{
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
 @media (max-width: 768px) {
     .banner-cont{
         height: 100vh;
@@ -110,17 +159,16 @@
     }
     .heading{
         font-size: 30px;
-        color: #fce2ad;
+
     }
     .tag-line{
         font-size: 15px;
         margin: 5px;
         margin-left: 20px;
-        color: #fce2ad;
+
     }
     .text{
         font-size: 21px;
-        color: #fce2ad;
         margin:10px;
     }
     .about-text{
@@ -128,30 +176,27 @@
         text-align: inherit;
         
     }
-    .about-sub-cont{
+    .about-sub-cont1{
         display: flex;
         flex-direction: column;
-        
         padding-top: 50px;
     }
     .about-image{
         width:350px;
-        border: none;
-        border-radius: 30px;
         order: 1;
     }
     .about-sub-text{
         padding-top: 30px;
+        padding-right: 0px;
         order: 2;
-        font-weight: lighter;
-        color: #271e0a;
-
+        text-align: center;
     }
     .company{
         font-size: 25px;
-        font-weight: 600;
-        color: #271e0a;
         margin-right: 5px;
         margin-bottom: 25px;
+    }
+    .explore-varieties{
+        flex-direction: column;
     }
 }
