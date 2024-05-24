@@ -120,7 +120,8 @@
     flex-wrap: wrap;
 }
 .ice-cream-cont{
-   
+   cursor: pointer;
+   width: 30%;
    border: none;
 }
 .ice-cream-variety{
@@ -198,5 +199,8 @@
     }
     .explore-varieties{
         flex-direction: column;
+    }
+    .ice-cream-cont{
+        width: 60%;
     }
 }
