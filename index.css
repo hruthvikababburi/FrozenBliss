@@ -4,7 +4,7 @@
 }
 
 .banner-cont{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-image: url('https://img.freepik.com/free-photo/delicious-homemade-ice-cream-with-topping_23-2148425372.jpg?t=st=1716532961~exp=1716536561~hmac=22ee30725d7b5913b845fcd7048531b57ac81bc64a371ec8edaf66c2f7427488&w=1800');
     background-size: cover;
@@ -22,6 +22,7 @@
 }
 .icon{
     font-size: 40px;
+    padding-bottom: 5px;
 }
 .heading{
     font-size: 50px;
@@ -32,9 +33,72 @@
     margin: 5px;
     margin-left: 20px;
     color: #fce2ad;
+    font-weight: lighter;
 }
 .text{
     font-size: 30px;
     color: #fce2ad;
     margin:10px;
+}
+.about-cont{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fce2ad;
+    padding: 60px;
+}
+.about-text{
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+.about-text h3{
+    font-size: 30px;
+}
+.about-text p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+@media (max-width: 768px) {
+    .banner-cont{
+        height: 100vh;
+        width: 100%;
+        background-image: url('https://img.freepik.com/free-photo/cup-with-ice-cream-cones-wooden-tray_23-2148421956.jpg?t=st=1716544458~exp=1716548058~hmac=0f58735af08679d257d644e9a03e4069632cef0365a501a081b843ec3379ef49&w=826');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-text{
+        width:80%;
+        height: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .icon{
+        font-size: 20px;
+
+    }
+    .heading{
+        font-size: 30px;
+        color: #fce2ad;
+    }
+    .tag-line{
+        font-size: 15px;
+        margin: 5px;
+        margin-left: 20px;
+        color: #fce2ad;
+    }
+    .text{
+        font-size: 21px;
+        color: #fce2ad;
+        margin:10px;
+    }
+    .about-text{
+        width:95%;
+        text-align: inherit;
+        
+    }
 }
