@@ -164,7 +164,21 @@
     font-weight: lighter;
     padding-top: 15px;
 }
+.special-section{
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-ice-cream-blackboard-background_23-2148982998.jpg?t=st=1716649539~exp=1716653139~hmac=95df832c78a75075bd345a509a86e55d8521c1c042d92da6db4a929e1e7312b7&w=1800');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+.special-section-text{
 
+}
+.special-section-text h3{
+
+}
+.special-section-text p{
+
+}
 
 
 
