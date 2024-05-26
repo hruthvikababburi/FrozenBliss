@@ -65,7 +65,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 60px;
     text-align: left;
     width: 100%;
     
@@ -99,6 +99,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #fce2ad;
     background-image: linear-gradient(#362f1f,#271e0a);
+    padding-bottom: 70px;
 }
 .explore-text{
     width: 90%;
@@ -129,7 +130,7 @@
     height: 250px;
     object-fit: cover;
     border-radius: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     
 }
 .why-choose-us{
@@ -143,7 +144,7 @@
     width: 90%;
     margin: auto;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 .why-choose-us-img{
     width: 350px;
@@ -165,19 +166,29 @@
     padding-top: 15px;
 }
 .special-section{
-    background-image: url('https://img.freepik.com/free-vector/hand-drawn-ice-cream-blackboard-background_23-2148982998.jpg?t=st=1716649539~exp=1716653139~hmac=95df832c78a75075bd345a509a86e55d8521c1c042d92da6db4a929e1e7312b7&w=1800');
+    background-image: url('https://img.freepik.com/free-photo/still-life-cup-brazilian-acai-dessert_23-2150168774.jpg?t=st=1716697423~exp=1716701023~hmac=71b3df6a2d6d8a4edbc129eff63921744cba070370b157d7c71e3cdfe592c049&w=1800');
     background-size: cover;
     min-height: 100vh;
     background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .special-section-text{
-
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #fce2ad;
+    padding-top: 180px;
 }
 .special-section-text h3{
+    font-size: 35px;
+    font-weight: 600;
 
 }
 .special-section-text p{
-
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 400;
+    
 }
 
 
@@ -260,4 +271,14 @@
         padding-top: 30px;
         text-align: center;
     }
+    .why-choose-us-text h3{
+        font-size: 30px;
+    }
+    .special-section{
+        background-image: url('https://img.freepik.com/free-photo/still-life-cup-brazilian-acai-dessert_23-2150168778.jpg?t=st=1716697487~exp=1716701087~hmac=8a6e7aa4fff7eeb2ac6dce5f9d39e4a2ce812c3d3315c6987ca56dec339c77ed&w=826');
+    }
+    .special-section-text h3{
+        font-size: 30px;
+    }
+
 }
