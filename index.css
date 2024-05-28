@@ -190,7 +190,25 @@
     font-weight: 400;
     
 }
+.btn{
+    color: #342204;
+    background-color: #fce2ad;
+    padding: 5px;
+    width: 140px;
+    height: 40px;
+    font-size: medium;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #fce2ad;
+    color: #fce2ad;
+}
 
 
 
